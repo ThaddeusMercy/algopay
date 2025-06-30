@@ -148,11 +148,13 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex items-center space-x-4">
             {/* Bolt Logo */}
             <div className="relative">
-              <img
-                className="w-14 h-14 object-cover"
-                src="https://i.ibb.co/4gNWmf3Z/boltlogo.png"
-                alt="Bolt"
-              />
+              <a href="https://bolt.new" target="_blank" rel="noopener noreferrer">
+                <img
+                  className="w-14 h-14 object-cover"
+                  src="https://i.ibb.co/4gNWmf3Z/boltlogo.png"
+                  alt="Bolt"
+                />
+              </a>
             </div>
 
             {isLandingPage ? (
